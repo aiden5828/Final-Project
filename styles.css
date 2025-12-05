@@ -1,0 +1,92 @@
+html, body {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    color: black;
+}
+
+#header {
+    grid-area: h;
+    border: 1px solid black;
+}
+
+#sidebar {
+    grid-area: s;
+    border: 1px solid black;
+}
+
+#stuff {
+    grid-area: ss;
+    border: 1px solid black;
+}
+
+#footer {
+    grid-area: f;
+    border: 1px solid black;
+}
+
+.index-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 3px;
+    grid-template-areas: 
+    "h h h h h"
+    "s ss ss ss ss"
+    "s ss ss ss ss"
+    "s ss ss ss ss"
+    "f f f f f"
+    ;
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+
+.m-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 3px;
+    grid-template-areas: 
+    "h h h h h"
+    "s ss ss ss ss"
+    "s ss ss ss ss"
+    "s ss ss ss ss"
+    "f f f f f"
+    ;
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+
+.f-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 3px;
+    grid-template-areas: 
+    "h h h h h"
+    "s ss ss ss ss"
+    "s ss ss ss ss"
+    "s ss ss ss ss"
+    "f f f f f"
+    ;
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+
+.t-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 3px;
+    grid-template-areas: 
+    "h h h h h"
+    "s ss ss ss ss"
+    "s ss ss ss ss"
+    "s ss ss ss ss"
+    "f f f f f"
+    ;
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
